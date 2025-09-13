@@ -1,0 +1,281 @@
+id,name,script,lv,typeA,targetA,sizeA,timeA,typeB,targetB,sizeB,timeB,castEffect,hitEffect
+1,플러리쉬-스페이드,전방의 적 하나에게 마법 (중) 데미지,1,mAtk,enemy,m,0,0,0,0,0,throw,magicHit_blue
+2,플러리쉬-다이아몬드,자신의 마법 공격력 (중) 증가,1,buffMAtk,me,m,4,0,0,0,0,effect_purple,0
+3,플러리쉬-하트,체력이 가장 적은 아군의 체력 (소) 회복,1,healHp,teamHp,s,0,0,0,0,0,effect_green2,heal
+4,이것이 나의 검술.,전방의 적 하나에게 마법 (중) 데미지,1,mAtk,enemy,m,0,0,0,0,0,slash2,hit_white
+5,이것이 나의 예술.,자신의 마력 (중) 증가,1,healMp,me,m,0,0,0,0,0,effect_blue,0
+6,참수격,적 전체에게 마법 (소) 데미지,1,mAtk,enemyAll,s,0,0,0,0,0,slash_all,hit_white
+7,보검 아크튜러스,전방의 적 하나에게 물리 (중) 데미지,1,atk,enemy,m,0,0,0,0,0,slash1,hit
+8,왕족적 심미안,전방의 적 하나의 물리 방어력 (중) 감소,1,debuffDef,enemy,m,4,0,0,0,0,magic_blue,debuff
+9,비행,자신의 회피율 (소) 증가,1,buffMiss,me,s,3,0,0,0,0,buff_blue,0
+10,스페로 임팩트!!!,전방의 적 하나에게 물리 (중) 데미지,1,atk,enemy,m,0,0,0,0,0,magic_green,hit
+11,헥토파스칼 킥!!!,전방의 적 하나에게 물리 (중) 데미지,1,atk,enemy,m,0,0,0,0,0,magic_green,hit
+12,이중극점!!!,전방의 적 하나에게 물리 (소) 데미지\n자신의 크리티컬 확률 (중) 증가,1,atk,enemy,s,0,buffCri,me,m,4,effect_green,hit
+13,아르발디류 무기술,전방의 적 하나에게 물리 (중) 데미지,1,atk,enemy,m,0,0,0,0,0,slash1,hit
+14,난공,아군 전체의 물리 방어력 (중) 증가,1,buffDef,teamAll,m,4,0,0,0,0,magic_red,shield
+15,불락,전방의 적 하나에게 물리 (소) 데미지\n대상을 스턴 상태로 만듦,1,atk,enemy,s,0,stun,enemy,s,2,magic_red,electric
+16,냥냥펀치,전방의 적 하나에게 물리 (중) 데미지,1,atk,enemy,m,0,0,0,0,0,scratch,hit
+17,핥기,전방의 적 하나의 물리 공격력 (중) 감소,1,debuffAtk,enemy,m,4,0,0,0,0,magic_red,debuff
+18,식빵 굽기,자신의 물리 방어력 (중) 증가\n자신의 마법 방어력 (중) 증가,1,buffDef,me,m,4,buffMDef,me,m,4,buff_yellow,shield_spark
+19,빛이여!,적 전체의 마법 공격력 (소) 감소,1,debuffMAtk,enemyAll,s,4,0,0,0,0,fire_blue,debuff
+20,소금절이,전방의 적 하나에게 마법 (중) 데미지,1,mAtk,enemy,m,0,0,0,0,0,throw,magicHit_green
+21,제사,적 전체의 마법 방어력 (소) 감소,1,debuffMDef,enemyAll,s,4,0,0,0,0,magic_green,debuff
+22,톱질,전방의 적 하나에게 물리 (중) 데미지,1,atk,enemy,m,0,0,0,0,0,slash1,hit
+23,천검,전방의 적 하나에게 물리 (중) 데미지\n대상의 물리 공격력 (중) 감소,1,atk,enemy,m,0,debuffAtk,enemy,m,4,slash2,hit
+24,영혼을 여는 힘,아군 전체의 물리 공격력 (소) 증가,1,buffAtk,teamAll,s,4,0,0,0,0,magic_blue2,effect_red
+25,민중의 지팡이,전방의 적 하나에게 물리 (중) 데미지,1,atk,enemy,m,0,0,0,0,0,slash1,hit
+26,말재주,적 전체의 마법 방어력 (소) 감소,1,debuffMDef,enemyAll,s,4,0,0,0,0,magic_blue,debuff
+27,정치적 수사,적 전체의 물리 방어력 (소) 감소,1,debuffDef,enemyAll,s,4,0,0,0,0,magic_blue2,debuff
+28,미키삐의 갸루킥!,전방의 적 하나에게 마법 (소) 데미지,1,mAtk,enemy,s,0,0,0,0,0,slash1,hit
+29,미키삐 빙의 해제하는거야~,아군 전체의 상태이상 해제,1,unDebuff,teamAll,s,0,0,0,0,0,magic_red,buff_green
+30,미키삐 딴쑤 추는거야~,일정시간 동안 적의 공격을 유인,1,decoy,me,s,5,0,0,0,0,star,0
+31,볼펜 공격!,전방의 적 하나에게 마법 (중) 데미지,1,mAtk,enemy,m,0,0,0,0,0,throw,magicHit_blue
+32,도약!,자신의 회피율 (중) 증가,1,buffMiss,me,m,3,0,0,0,0,buff_blue,0
+33,광기의 음률!,적 전체의 마법 방어력 (소) 감소,1,debuffMDef,enemyAll,s,4,0,0,0,0,magic_green,debuff
+34,단검 휘두르기,전방의 적 하나에게 물리 (소) 데미지,1,atk,enemy,s,0,0,0,0,0,scratch,hit
+35,갈!!!!!!!,적 전체의 물리 공격력 (소) 감소,1,debuffMAtk,enemyAll,s,4,0,0,0,0,magic_blue2,debuff
+36,사지 위축,전방의 적 하나에게 물리 (중) 데미지\n대상을 스턴 상태로 만듦,1,atk,enemy,m,0,stun,enemy,s,2,magic_purple,electric
+37,콜트 싱글 액션 아미,전방의 적 하나에게 물리 (중) 데미지,1,atk,enemy,m,0,0,0,0,0,gun1,bomb1
+38,관찰력,전방의 적 하나의 물리 방어력 (중) 감소,1,debuffDef,enemy,m,4,0,0,0,0,magic_blue,debuff
+39,사교 댄스,마력이 가장 적은 아군의 마력 (중) 회복,1,healMp,teamMp,m,0,0,0,0,0,star,effect_blue
+40,매혹,전방의 적 하나의 마법 공격력 (중) 감소,1,debuffMAtk,enemy,m,4,0,0,0,0,magic_red,hit_pink
+41,마담의 응원,아군 전체의 물리 공격력 (소) 증가,1,buffAtk,teamAll,s,4,0,0,0,0,star,effect_red
+42,존나담배피기,자신의 마력 (중) 회복,1,healMp,me,m,0,0,0,0,0,magic_purple,0
+43,노덴스의 사다리,전방의 적 하나에게 물리 (중) 데미지,1,atk,enemy,m,0,0,0,0,0,slash1,hit
+44,체력 회복 : 김치,자신의 체력 (중) 회복,1,healHp,me,m,0,0,0,0,0,effect_green,0
+45,마력 회복 : 오예스,자신의 마력 (중) 회복,1,healMp,me,m,0,0,0,0,0,effect_blue,0
+46,목검,전방의 적 하나에게 물리 (중) 데미지,1,atk,enemy,m,0,0,0,0,0,slash1,hit
+47,정신 집중,자신의 물리 공격력 (중) 증가,1,buffAtk,me,m,4,0,0,0,0,effect_red,0
+48,방어 태세,자신의 물리 방어력 (중) 증가,1,buffDef,me,m,4,0,0,0,0,shield,0
+49,라이플,전방의 적 하나에게 물리 (중) 데미지,1,atk,enemy,m,0,0,0,0,0,gun1,bomb1
+50,응급처치,체력이 가장 적은 아군의 체력 (중) 회복,1,healHp,teamHp,m,0,0,0,0,0,effect_green2,heal
+51,의사는 최선을 다했습니다만…,선두의 아군 하나의 체력 (소) 회복,1,healHp,team1,s,0,0,0,0,0,magic_green,heal
+52,소매치기,전방의 적 하나에게 물리 (소) 데미지\n자신의 마력 (소) 증가,1,atk,enemy,s,0,healMp,me,s,0,scratch,magicHit_red
+53,정찰,아군 전체의 크리티컬 확률 (소) 증가,1,buffCri,teamAll,s,4,0,0,0,0,magic_blue2,effect_green
+54,은밀행동,자신의 회피율 (중) 증가,1,buffMiss,me,m,4,0,0,0,0,buff_blue,0
+55,신앙의 힘,선두의 아군 하나의 체력 (소) 회복,1,healHp,team1,s,0,0,0,0,0,effect_green2,heal
+56,분석,전방의 적 하나의 마법 방어력 (중) 감소,1,debuffMDef,enemy,m,4,0,0,0,0,magic_blue2,debuff
+57,신앙 전도,마력이 가장 적은 아군의 마력 (중) 회복,1,healMp,teamMp,m,0,0,0,0,0,magic_blue,effect_blue
+58,근접전 공격,전방의 적 하나에게 물리 (중) 데미지,1,atk,enemy,m,0,0,0,0,0,scratch,hit
+59,잠입,자신의 회피율 (중) 증가,1,buffMiss,me,m,4,0,0,0,0,buff_blue,0
+60,아나키즘 전파,마력이 가장 적은 아군의 마력 (중) 회복,1,healMp,teamMp,m,0,0,0,0,0,magic_purple,effect_blue
+61,무당 펀치,전방의 적 하나에게 마법 (중) 데미지,1,mAtk,enemy,m,0,0,0,0,0,scratch,magicHit_red
+62,무당 샷건,최후방의 적 하나에게 마법 (중) 데미지,1,mAtk,enemy5,m,0,0,0,0,0,gun1,magicHit_red
+63,배신,전방의 아군 하나에게 물리 (소) 데미지,1,atk,team1,s,0,0,0,0,0,EnemyAtkBlue,magicHit_red
+64,가라! 삐리뽀!,전방의 적 하나에게 물리 (소) 데미지,1,atk,enemy,s,0,0,0,0,0,gun1,bomb1
+65,화염방사기,적 전체를 화상 상태로 만듦,1,fire,enemyAll,s,4,0,0,0,0,fire_red,burn
+66,일렉트로닉 새총 마크2,전방의 적 하나를 스턴 상태로 만듦,1,stun,enemy,s,2,0,0,0,0,spark,electric
+67,마력 공격,전방의 적 하나에게 마법 (중) 데미지,1,mAtk,enemy,m,0,0,0,0,0,fire_blue,magicHit_purple
+68,감정,전방의 적 하나의 마법 방어력 (중) 감소,1,debuffMDef,enemy,m,4,0,0,0,0,magic_blue2,debuff
+69,크툴루 신화,자신의 마법 공격력 (중) 증가,1,buffMAtk,me,m,4,0,0,0,0,effect_purple,0
+70,장침,전방의 적 하나에게 물리 (중) 데미지,1,atk,enemy,m,0,0,0,0,0,throw,hit_purple
+71,그림자,자신의 회피율 (중) 증가,1,buffMiss,me,m,4,0,0,0,0,buff_blue,0
+72,한의학,체력이 가장 적은 아군의 체력 (중) 회복,1,healHp,teamHp,m,0,0,0,0,0,effect_green2,heal
+73,무명검,전방의 적 하나에게 물리 (중) 데미지,1,atk,enemy,m,0,0,0,0,0,slash1,hit_electric
+74,돌아가라!,전방의 적 하나의 물리 방어력 (중) 감소,1,debuffDef,enemy,m,4,0,0,0,0,magic_purple,magicHit_purple
+75,관동경단,자신의 체력 (중) 회복,1,healHp,me,m,0,0,0,0,0,heal,0
+76,궁술,후방의 적 하나에게 물리 (중) 데미지,1,atk,enemy4,m,0,0,0,0,0,slash_charge,hit_purple
+77,무예도보통지,자신의 물리 공격력 (중) 증가,1,buffAtk,me,m,4,0,0,0,0,effect_red,0
+78,독수리 눈,자신의 크리티컬 확률 (중) 증가,1,buffCri,me,m,4,0,0,0,0,effect_green,0
+79,오버클럭-신속,전방의 적 하나에게 물리 (중) 데미지\n대상에게 물리 (소) 데미지,1,atk,enemy,m,0,atk,enemy,s,0,scratch,magicHit_red
+80,오버클럭-격리,전방의 적 하나를 스턴 상태로 만듦,1,stun,enemy,s,2,0,0,0,0,magic_green,electric
+81,오버클럭-박차,자신의 회피율 (소) 증가,1,buffMiss,me,s,4,0,0,0,0,buff_blue,0
+82,건강정 곤원령,자신의 물리 방어력 (중) 증가,1,buffDef,me,m,4,0,0,0,0,shield,0
+83,일월상 강전형,자신의 마법 방어력 (중) 증가,1,buffMDef,me,m,4,0,0,0,0,shield_electric,0
+84,휘뢰천 운현좌,전방의 적 하나에게 물리 (중) 데미지,1,atk,enemy,m,0,0,0,0,0,slash1,hit_electric
+85,축복 : 점,체력이 가장 적은 아군의 체력 (중) 회복,1,healHp,teamHp,m,0,0,0,0,0,effect_green2,heal
+86,봉인 : 선,전방의 적 하나에게 마법 (중) 데미지\n대상을 스턴 상태로 만듦,1,mAtk,enemy,m,0,stun,enemy,s,2,magic_green,electric
+87,수호 : 면,선두의 아군 하나의 물리 방어력 (중) 증가\n대상의 마법 방어력 (중) 증가,1,buffDef,team1,m,4,buffMDef,team1,m,4,magic_blue,shield
+88,마탄 발사,전방의 적 하나에게 마법 (중) 데미지,1,mAtk,enemy,m,0,0,0,0,0,magic_purple,hit_purple
+89,군맹무상,최후방의 적 하나의 물리 공격력 (중) 감소\n대상의 마법 공격력 (중) 감소,1,debuffAtk,enemy5,m,4,debuffMAtk,enemy5,m,4,magic_red,debuff
+90,만단정회,후방의 적 하나를 스턴 상태로 만듦,1,stun,enemy4,s,2,0,0,0,0,spark,electric
+91,타락한 롱기누스,전방의 적 하나에게 물리 (중) 데미지,1,atk,enemy,m,0,0,0,0,0,slash1,hit_yellow
+92,동물 조련,적 전체의 마법 공격력 (소) 감소,1,debuffMAtk,enemyAll,s,4,0,0,0,0,magic_purple,debuff
+93,고르디우스,자신의 회피율 (대) 증가,1,buffMiss,me,l,4,0,0,0,0,buff_blue,0
+94,폭풍창 트와일라잇,전방의 적 하나에게 물리 (중) 데미지\n자신의 회피율 (소) 상승,1,atk,enemy,m,0,buffMiss,me,s,4,gun2,hit_yellow
+95,세포 재생 장치,자신의 체력 (소) 회복,1,healHp,me,m,0,0,0,0,0,heal,0
+96,마력 변환 장치,자신의 마력 (소) 회복,1,healMp,me,m,0,0,0,0,0,effect_blue,0
+97,마력 라이플,전방의 적 하나에게 마법 (중) 데미지,1,mAtk,enemy,m,0,0,0,0,0,gun1,bomb2
+98,비전,자신의 크리티컬 확률 (중) 증가,1,buffCri,me,m,4,0,0,0,0,buff_yellow,0
+99,마력 충전,자신의 마력 (대) 회복\n자신을 스턴 상태로 만듦,1,healMp,me,l,0,stun,me,s,2,effect_purple,0
+100,수확,전방의 적 하나에게 마법 (중) 데미지,1,mAtk,enemy,m,0,0,0,0,0,fire_blue,magicHit_blue
+101,심연의 편린,자신의 마법 공격력 (중) 증가\n자신의 마법 방어력 (중) 감소,1,buffMAtk,me,m,4,debuffMDef,me,m,4,effect_purple,0
+102,부패하는 검은 대양,적 전체에게 마법 (소) 데미지\n대상의 마법 방어력 (소) 감소,1,mAtk,enemyAll,s,0,debuffMDef,enemtAll,m,4,magic_blue,magicHit_purple
+103,이클립스,전방의 적 하나에게 물리 (중) 데미지,1,atk,enemy,m,0,0,0,0,0,scratch,hit_yellow
+104,스카라,자신의 물리 방어력 (중) 증가\n자신의 마법 방어력 (중) 증가,1,buffDef,me,m,4,buffMDef,me,m,4,shield_electric,0
+105,리베호임,자신의 체력 (중) 회복\n자신의 마력 (중) 회복,1,healHp,me,m,0,healMp,me,m,0,heal,0
+106,배트-배트,전방의 적 하나에게 물리 (중) 데미지,1,atk,enemy,m,0,0,0,0,0,slash1,hit_electric
+107,스파이더-와이어건,자신의 회피율 (중) 증가,1,buffMiss,me,m,4,0,0,0,0,buff_blue,0
+108,투척,최후방의 적 하나에게 물리 (중) 데미지,1,atk,enemy5,m,0,0,0,0,0,throw,hit_purple
+109,메스,전방의 적 하나에게 물리 (중) 데미지,1,atk,enemy,m,0,0,0,0,0,slash2,hit_white
+110,약학,체력이 가장 적은 아군의 체력 (중) 회복,1,healHp,teamHp,m,0,0,0,0,0,effect_green2,heal
+111,수사학,아군 전체의 크리티컬 확률 (소) 증가,1,buffCri,teamAll,s,4,0,0,0,0,magic_green,effect_green
+112,카람빗,전방의 적 하나에게 물리 (중) 데미지,1,atk,enemy,m,0,0,0,0,0,scratch,magicHit_red
+113,변장,자신의 마법 방어력 (중) 증가\n자신의 회피율 (중) 증가,1,buffMDef,me,m,4,buffMiss,me,m,4,buff_yellow,0
+114,자동차 운전,아군 전체의 회피율 (중) 증가,1,buffMiss,teamAll,m,4,0,0,0,0,magic_red,buff_blue
+115,바리츠,전방의 적 하나에게 물리 (중) 데미지,1,atk,enemy,m,0,0,0,0,0,scratch,hit_yellow
+116,자료 조사,적 전체의 물리 공격력 (소) 감소\n적 전체의 마법 공격력 (소) 감소,1,debuffAtk,enemyAll,s,4,debuffMAtk,enemyAll,s,4,magic_blue2,debuff
+117,비야키 구속,전방의 적 하나를 스턴 상태로 만듦,1,stun,enemy,s,2,0,0,0,0,magic_purple,electric
+118,Kill-Kill,전방의 적 하나에게 물리 (중) 데미지,1,atk,enemy,m,0,0,0,0,0,slash1,hit_green
+119,은밀행동,자신의 회피율 (중) 증가,1,buffMiss,me,m,4,0,0,0,0,buff_blue,0
+120,마취총,전방의 적 하나를 스턴 상태로 만듦,1,stun,enemy,s,2,0,0,0,0,spark,electric
+121,키보드 워리어,전방의 적 하나에게 마법 (중) 데미지,1,mAtk,enemy,m,0,0,0,0,0,magic_blue,magicHit_blue
+122,자연 지식,자신의 마력 (중) 회복,1,healMp,me,m,0,0,0,0,0,effect_blue,0
+123,올바른 인터넷 사용,적 전체의 물리 공격력 (소) 감소\n적 전체의 마법 공격력 (소) 감소,1,debuffAtk,enemyAll,s,4,debuffMAtk,enemyAll,s,4,magic_blue2,debuff
+124,빗자루,전방의 적 하나에게 물리 (중) 데미지,1,atk,enemy,m,0,0,0,0,0,slash1,hit_white
+125,요리,체력이 가장 적은 아군의 체력 (중) 회복,1,healHp,teamHp,m,0,0,0,0,0,effect_green2,heal
+126,청소,자신의 공격력 (중) 증가\n자신의 회피율 (중) 증가,1,buffAtk,me,m,4,buffMiss,me,m,4,effect_red,0
+127,마도서 주문,전방의 적 하나에게 마법 (중) 데미지,1,mAtk,enemy,m,0,0,0,0,0,fire_blue,magicHit_green
+128,도난 방지,아군 전체의 상태이상 해제,1,unDebuff,teamAll,s,0,0,0,0,0,magic_red,buff_blue
+129,아이돌리즘,아군 전체의 물리 공격력 (소) 증가\n아군 전체의 마법 공격력 (소) 증가,1,buffAtk,teamAll,s,4,buffMAtk,teamAll,s,4,magic_purple2,effect_red
+130,신중한 주먹,전방의 적 하나에게 물리 (중) 데미지,1,atk,enemy,m,0,0,0,0,0,gun2,bomb2
+131,회계,자신의 마력 (중) 회복,1,healMp,me,m,0,0,0,0,0,effect_blue,0
+132,매니지먼트,마력이 가장 적은 아군의 마력 (중) 회복,1,healMp,teamMp,m,0,0,0,0,0,magic_purple2,effect_blue
+133,꽁뜨르 아따끄,전방의 적 하나에게 물리 (중) 데미지,1,atk,enemy,m,0,0,0,0,0,slash1,hit_yellow
+134,격통 저주,후방의 적 하나에게 물리 (중) 데미지,1,atk,enemy5,m,0,0,0,0,0,magic_purple,magicHit_purple
+135,고고학,아군 전체의 마력 (소) 회복,1,healMp,teamAll,s,0,0,0,0,0,magic_red,effect_blue
+136,돈키호테류 경혈식,전방의 적 하나에게 물리 (중) 데미지,1,atk,enemy,m,0,0,0,0,0,slash1,magicHit_red
+137,라 샹그레 데 산초,전방의 적 하나에게 물리 (소) 데미지\n자신의 체력 (소) 회복,1,atk,enemy,s,0,healHp,me,s,0,heal,magicHit_red
+138,고결함,자신의 체력 (소) 회복\n 자신의 마력 (중) 회복,1,healHp,me,s,0,healMp,me,m,0,buff_yellow,0
+139,경화수월 : 신월,전방의 적 하나에게 물리 (중) 데미지,1,atk,enemy,m,0,0,0,0,0,slash1,hit_white
+140,경화수월 : 상현,전방의 적 하나에게 물리 (소) 데미지\n자신의 크리티컬 확률 (중) 증가,1,atk,enemy,s,0,buffCri,me,m,4,effect_green,hit_white
+141,경화수월 : 하현,전방의 적 하나에게 물리 (소) 데미지\n자신의 마력 (중) 회복,1,atk,enemy,s,0,healMp,me,m,0,effect_blue,hit_white
+142,자취방컴퓨터중독자염찬미를끌어당기는정도의능력,전방의 적 하나에게 마법 (소) 데미지\n대상의 물리 방어력 (중) 감소,1,mAtk,enemy,s,0,debuffAtk,enemy,m,4,magic_blue,debuff
+143,염찬미자취방식충이돈키호테의등짝을무조건때릴수있는정도의능력,전방의 적 하나에게 마법 (소) 데미지\n대상의 마법 방어력 (중) 감소,1,mAtk,enemy,s,0,debuffMAtk,enemy,m,4,magic_blue2,debuff
+144,지나가던재수없는로렌초뒤통수존나쌔게때리는정도의능력,전방의 적 하나에게 마법 (중) 데미지,1,mAtk,enemy,m,0,0,0,0,0,magic_green,magicHit_green
+145,에로스의 금 화살,적 전체에게 물리 (소) 데미지,1,atk,enemyAll,s,0,0,0,0,0,slash_all,magicHit_purple
+146,필리아의 은 화살,아군 전체의 물리 공격력 (소) 증가\n아군 전체의 마법 공격력 (소) 증가,1,buffAtk,teamAll,s,4,buffMAtk,teamAll,s,4,slash_charge,effect_purple
+147,스테르게트론의 청동 화살,전방의 적 하나의 물리 공격력 (중) 감소\n대상의 마법 공격력 (중) 감소,1,debuffAtk,enemy,m,4,debuffMAtk,enemy,m,4,slash_charge,debuff
+148,Hatter's shake,전방의 적 하나에게 마법 (중) 데미지,1,mAtk,enemy,m,0,0,0,0,0,spark,hit_yellow
+149,Cogito ergo sum,마력이 가장 적은 아군의 마력 (중) 회복,1,healMp,teamMp,m,0,0,0,0,0,magic_green,effect_blue
+150,Ewige Wiederkunft,자신의 마력 (중) 회복,1,healMp,me,m,0,0,0,0,0,effect_blue,0
+151,평범한 검,전방의 적 하나에게 물리 (중) 데미지,1,atk,enemy,m,0,0,0,0,0,slash1,hit
+152,재생,자신의 체력 (중) 회복,1,healHp,me,m,0,0,0,0,0,heal,0
+153,디멘션 펄,자신의 회피율 (중) 증가,1,buffMiss,me,m,4,0,0,0,0,throw,buff_blue
+154,진요현검,전방의 적 하나에게 물리 (중) 데미지,1,atk,enemy,m,0,0,0,0,0,slash1,hit
+155,두전성이,전방의 적 하나에게 물리 (소) 데미지\n자신의 물리 방어력 (중) 증가,1,atk,enemy,s,0,buffDef,me,m,4,buff_yellow,hit
+156,후예사일,전방의 적 하나에게 물리 (대) 데미지\n자신의 물리 방어력 (중) 감소,1,atk,enemy,l,0,debuffDef,me,m,4,slash2,bomb2
+157,개화 E.G.O :: 웃음웃을꽃,아군 전체의 물리 공격력 (소) 증가\n아군 전체의 마법 공격력 (소) 증가,1,buffAtk,teamAll,s,4,buffMAtk,teamAll,s,4,magic_green,effect_purple
+158,개화 E.G.O :: 울음울을꽃,자신의 마력 (대) 회복\n아군 전체에게 마법 (소) 데미지,1,healMp,me,l,0,mAtk,teamAll,s,0,magic_blue2,effect_blue
+159,개화 E.G.O :: 싸움싸울꽃,아군 전체의 물리 공격력 (중) 증가\n적군 전체의 물리 공격력 (소) 증가,1,buffAtk,teamAll,m,4,buffAtk,enemyAll,s,4,magic_purple,effect_red
+160,키리에,전방의 적 하나에게 마법 (중) 데미지,1,mAtk,enemy,m,0,0,0,0,0,gun1,bomb2
+161,속사,전방의 적 하나에게 마법 (소) 데미지\n대상에게 한 번 더 마법 (소) 데미지,1,mAtk,enemy,s,0,mAtk,enemy,s,0,gun3,bomb2
+162,추적,자신의 크리티컬 확률 (중) 증가,1,buffCri,me,m,0,0,0,0,0,magic_green,0
+163,전격술,전방의 적 하나에게 마법 (소) 데미지\n대상을 스턴 상태로 만듦,1,mAtk,enemy,s,0,stun,enemy,s,2,spark,hit_electric
+164,전기 수리,자신의 마력 (중) 회복,1,healMp,me,m,0,0,0,0,0,effect_blue,0
+165,중장비 조작,마력이 가장 적은 아군의 마력 (중) 회복,1,healMp,teamMp,m,0,0,0,0,0,magic_purple2,effect_blue
+166,성검 페니텐시아,전방의 적 하나에게 물리 (중) 데미지,1,atk,enemy,m,0,0,0,0,0,slash2,hit_yellow
+167,신앙의 방패,자신의 물리 방어력 (중) 증가\n자신의 마법 방어력 (중) 증가,1,buffDef,me,m,4,buffMDef,me,m,4,shield,0
+168,힐,체력이 가장 적은 아군의 체력 (중) 회복,1,healHp,teamHp,m,0,0,0,0,0,buff_yellow,heal
+169,크로스보우,전방의 적 하나에게 물리 (중) 데미지,1,atk,enemy,m,0,0,0,0,0,slash1,hit
+170,메이지 핸드,전방의 적 하나의 물리 방어력 (중) 감소,1,debuffDef,enemy,m,0,0,0,0,0,magic_blue,magicHit_blue
+171,컬러 스프레이,전방의 적 하나를 스턴 상태로 만듦,1,stun,enemy,s,2,0,0,0,0,fire_red,electric
+172,엘모의 손도끼,전방의 적 하나에게 물리 (중) 데미지,1,atk,enemy,m,0,0,0,0,0,slash1,hit_pink
+173,무모한 공격,전방의 적 하나에게 물리 (대) 데미지\n자신의 물리 방어력 (소) 감소,1,atk,enemy,l,0,debuffDef,me,s,4,debuff,bomb2
+174,격노,자신의 물리 공격력 (중) 증가,1,buffAtk,me,m,4,0,0,0,0,effect_red,0
+175,엘드리치 블래스트,전방의 적 하나에게 마법 (중) 데미지,1,mAtk,enemy,m,0,0,0,0,0,slash1,hit_yellow
+176,미러 일루젼,자신의 회피율 (대) 증가,1,buffMiss,me,l,4,0,0,0,0,magic_blue,0
+177,헥스블레이드의 저주,전방의 적 하나에게 마법 (중) 데미지\n자신의 체력 (소) 회복,1,mAtk,enemy,m,0,healHp,me,s,0,heal,hit_purple
+178,파이어 볼트,전방의 적 하나에게 마법 (중) 데미지,1,mAtk,enemy,m,0,0,0,0,0,fire_red,bomb2
+179,아이스 나이프,전방의 적 하나에게 마법 (소) 데미지\n후방의 적 하나에게 마법 (중) 데미지,1,mAtk,enemy,s,0,mAtk,enemy4,m,0,magic_blue,magicHit_blue
+180,칼날 구름,최후방의 적 하나에게 마법 (중) 데미지,1,mAtk,enemy5,m,0,0,0,0,0,magic_purple2,magicHit_purple
+501,근접전 공격,전방의 아군 하나에게 물리 (소) 데미지,1,atk,team1,s,0,0,0,0,0,EnemyAtkRed,hit
+502,총알 발사,전방의 아군 하나에게 물리 (소) 데미지,2,atk,team1,s,0,0,0,0,0,EnemyAtkRed,hit
+503,마탄 발사,전방의 아군 하나에게 마법 (소) 데미지,1,mAtk,team1,s,0,0,0,0,0,EnemyAtkBlue,hit
+504,방어 태세,자신의 물리 방어력 (소) 증가,3,buffDef,me,s,0,0,0,0,0,shield,0
+505,저격,최후방의 아군 하나에게 물리 (소) 데미지,2,atk,team5,s,0,0,0,0,0,EnemyAtkRed,hit
+506,원거리 마법,최후방의 아군 하나에게 마법 (소) 데미지,2,mAtk,team5,s,0,0,0,0,0,EnemyAtkBlue,hit
+507,방어 마법,자신의 마법 방어력 (소) 증가,3,buffMDef,me,s,0,0,0,0,0,shield_electric,0
+508,맹독,전방의 아군 하나를 중독 상태로 만듦,10,fire,team1,s,4,0,0,0,0,magic_purple,debuff
+509,전기,전방의 아군 하나를 스턴 상태로 만듦,10,stun,team1,s,2,0,0,0,0,spark,electric
+510,군맹무상,최후방의 아군 하나의 물리 공격력 (중) 감소\n대상의 마법 공격력 (중) 감소,5,debuffAtk,team5,m,4,debuffMAtk,team5,m,4,magic_red,debuff
+511,만단정회,최후방의 아군 하나를 스턴 상태로 만듦,5,stun,team5,s,2,0,0,0,0,spark,electric
+512,고드름침,전방의 아군 하나에게 마법 (소) 데미지,5,mAtk,team1,s,0,0,0,0,0,EnemyAtkBlue,hit_white
+513,물어뜯기,전방의 아군 하나에게 물리 (중) 데미지,5,atk,team1,m,0,0,0,0,0,EnemyAtkRed,hit
+514,뇌격,아군 전체에게 마법 (중) 데미지\n대상을 스턴 상태로 만듦,10,mAtk,teamAll,m,0,stun,teamAll,s,2,sheid_electric,thunder3
+515,빙벽,적 전체의 물리 방어력 (중) 증가,10,buffDef,enemyAll,m,4,0,0,0,0,sheid_electric,shield
+516,빙결,아군 전체를 스턴 상태로 만듦,10,stun,teamAll,s,2,0,0,0,0,EnemyAtkBlue,electric
+517,적혈조술,전방의 아군 하나에게 마법 (중) 데미지,20,mAtk,team1,m,0,0,0,0,0,EnemyAtkRed,hit
+518,내려찍기,전방의 아군 하나에게 물리 (중) 데미지,20,atk,team1,m,0,0,0,0,0,EnemyAtkRed,hit
+519,검술,전방의 아군 하나에게 물리 (소) 데미지,10,atk,team1,s,0,0,0,0,0,EnemyAtkRed,hit
+520,궁술,최후방의 아군 하나에게 물리 (소) 데미지,10,atk,team5,s,0,0,0,0,0,EnemyAtkRed,hit
+521,성혼:안타레스,최후방의 아군 하나에게 물리 (소) 데미지\대상을 중독 상태로 만듦,30,atk,team5,s,0,fire,team1,s,4,EnemyAtkRed,debuff
+522,지진,아군 전체에게 물리 (중) 데미지,30,atk,teamAll,m,0,0,0,0,0,EnemyAtkRed,hit
+523,세뇌,전방의 아군 하나를 스턴 상태로 만듦,30,stun,team1,s,6,0,0,0,0,EnemyAtkRed,electric
+524,물어삼키기,전방의 아군 하나에게 물리 (대) 데미지\n대상을 스턴 상태로 만듦,30,atk,team1,l,0,stun,team1,s,2,EnemyAtkRed,hit
+525,강력한 펀치,전방의 아군 하나에게 물리 (중) 데미지,30,atk,team1,m,0,0,0,0,0,EnemyAtkRed,hit
+526,강력한 마법,전방의 아군 하나에게 마법 (중) 데미지,20,mAtk,team1,m,0,0,0,0,0,EnemyAtkRed,hit
+527,기습 저격,최후방의 아군 하나에게 물리 (중) 데미지,40,atk,team5,m,0,0,0,0,0,EnemyAtkRed,hit
+528,함정 마법,최후방의 아군 하나에게 마법 (중) 데미지,40,mAtk,team5,m,0,0,0,0,0,EnemyAtkBlue,hit
+529,체력 회복,자신의 체력 (소) 회복,10,healHp,me,s,0,0,0,0,0,heal,0
+530,일격,전방의 아군 하나에게 물리 (대) 데미지,50,atk,team1,l,0,stun,team1,s,2,EnemyAtkRed,hit
+531,소리지르기,아군 전체에게 마법 (소) 데미지,50,mAtk,teamAll,s,0,0,0,0,0,EnemyAtkRed,hit
+532,짓누르기,전방의 아군 하나에게 물리 (소) 데미지\n대상의 물리 방어력 (중) 감소,60,atk,team1,s,0,debuffDef,team1,m,4,magic_red,debuff
+533,사악한 주문,전방의 아군 하나에게 마법 (소) 데미지\n대상의 마법 방어력 (중) 감소,60,mAtk,team1,s,0,debuffMDef,team1,m,4,magic_red,debuff
+534,용성군,아군 전체에게 마법 (대) 데미지,60,mAtk,teamAll,l,0,0,0,0,0,EnemyAtkRed,hit
+535,역린,아군 전체에게 물리 (대) 데미지,60,atk,teamAll,l,0,0,0,0,0,EnemyAtkRed,hit
+536,저주,아군 전체의 물리 공격력 (대) 감소\n대상의 마법 공격력 (대) 감소,70,debuffAtk,teamAll,l,4,debuffMAtk,teamAll,l,4,magic_red,debuff
+537,어둠의 방벽,적 전체의 물리 방어력 (대) 증가,10,buffDef,enemyAll,l,4,0,0,0,0,sheid_electric,shield
+538,흑마법 방벽,적 전체의 마법 방어력 (대) 증가,10,buffMDef,enemyAll,l,4,0,0,0,0,sheid_electric,shield
+539,수복,자신의 체력 (중) 회복,50,healHp,me,m,0,0,0,0,0,heal,0
+540,죽음의 일격,전방의 아군 하나에게 마법 (특대) 데미지,100,mAtk,team1,xl,0,0,0,0,0,EnemyAtkRed,hit
+901,플러리쉬-조커,전방의 적 하나에게 마법 (대) 데미지,1,mAtk,enemy,l,0,0,0,0,0,throw,magicHit_blue
+902,홍련만개,적 전체에게 마법 (중) 데미지\n대상을 스턴 상태로 만듦,1,mAtk,enemyAll,m,0,stun,enemyAll,s,4,slash2,hit_white
+903,성혼:알타이르,자신의 물리 공격력 (대) 증가\n회피율 (대) 증가,1,buffAtk,me,l,8,buffMiss,me,l,8,buff_blue,0
+904,신체강화:BTF,자신의 물리 공격력 (대) 증가\n크리티컬 확률 (대) 증가,1,buffAtk,me,l,8,buffCri,me,l,8,buff_green,0
+905,세계연성,전방의 적 하나에게 물리 (대) 데미지,1,atk,enemy,l,0,0,0,0,0,flame,bomb1
+906,산,자신의 체력 (대) 회복\n자신의 마력 (대) 회복,1,healHp,me,l,0,healMp,me,l,0,buff_green,0
+907,태산열제공,적 전체의 물리 방어력 (대) 감소,1,debuffDef,enemyAll,l,8,0,0,0,0,buff_yellow,magic_circle
+908,열,전방의 적 하나에게 물리 (중) 데미지\n자신의 물리 공격력 (대) 증가,1,atk,enemy,m,0,buffAtk,me,l,8,slash_charge,hit_purple
+909,제,적 전체를 스턴 상태로 만듦,1,stun,enemyAll,s,6,0,0,0,0,magic_red,electric
+910,태,자신의 물리 방어력 (대) 증가\n자신의 마법 방어력 (대) 증가,1,buffDef,me,l,8,buffMDef,me,l,8,buff_blue,0
+911,대성공,자신의 크리티컬 확률 (특대) 증가\n전방의 적 하나의 회피율 (특대) 감소,1,buffCri,me,xl,12,debuffMiss,enemy,xl,12,buff_yellow,0
+912,고대 차원문 개방,전방의 적 하나를 스턴 상태로 만듦,1,stun,enemy,s,10,0,0,0,0,magic_red,electric
+913,심리학,전방의 적 하나의 마법 방어력 (대) 감소,1,debuffMDef,enemy,l,8,0,0,0,0,magic_blue2,debuff
+914,매혹,적 전체의 물리 공격력 (대) 감소\n적 전체의 마법 공격력 (대) 감소,1,debuffAtk,enemyAll,l,8,debuffMAtk,enemyAll,l,8,magic_red,hit_pink
+915,신체 강화,자신의 물리 공격력 (대) 증가,1,buffAtk,me,l,8,0,0,0,0,effect_red,0
+916,검격,전방의 적 하나에게 물리 (대) 데미지,1,atk,enemy,l,0,0,0,0,0,slash_charge,bomb2
+917,응급 수술,체력이 가장 적은 아군의 체력 (대) 회복,1,healHp,teamHp,l,0,0,0,0,0,buff_green,heal
+918,암행,자신의 회피율 (특대) 증가,1,buffMiss,me,xl,10,0,0,0,0,buff_blue,0
+919,정신 분석,마력이 가장 적은 아군의 마력 (대) 회복,1,healMp,teamMp,l,0,0,0,0,0,magic_blue2,effect_blue
+920,폭발,전방의 적 하나에게 물리 (대) 데미지,1,atk,enemy,l,0,0,0,0,0,scratch,bomb2
+921,영매,자신의 마법 방어력 (특대) 증가\n자신의 물리 방어력 (중) 감소,1,buffMDef,me,xl,8,debuffDef,me,m,8,star,0
+922,발명,자신의 물리 공격력 (대) 증가\n자신의 마력 (소) 회복,1,buffAtk,me,l,8,healMp,me,s,0,effect_red,0
+923,강령,전방의 적 하나에게 마법 (대) 데미지\n자신의 마법 공격력 (대) 증가,1,mAtk,enemy,l,0,buffMAtk,me,l,8,star,thunder2
+924,무형지독,전방의 적 하나에게 물리 (대) 데미지\n대상을 화상 상태로 만듦,1,atk,enemy,l,0,fire,enemy,s,10,flame,burn
+925,무명검-각성,전방의 적 하나에게 물리 (특대) 데미지,1,atk,enemy,xl,0,0,0,0,0,slash_charge,bomb2
+926,대서낙도,자신의 물리 공격력 (대) 증가\n전방의 적 하나의 물리 방어력 (대) 감소,1,buffAtk,me,l,8,debuffDef,enemy,l,8,magic_blue2,thunder2
+927,오버클럭-한계돌파역행,자신의 물리 공격력 (대) 증가\n자신의 체력 (대) 회복,1,buffAtk,me,l,8,healHp,me,l,0,magic_redstone,0
+928,일편용광두우사,전방의 적 하나에게 물리 (특대) 데미지,1,atk,enemy,xl,0,0,0,0,0,slash_charge,thunder1
+929,창세,아군 전체의 물리 공격력 (대) 증가\n아군 전체의 마법 공격력 (대) 증가,1,buffAtk,teamAll,l,8,buffMAtk,teamAll,l,8,buff_yellow,buff_yellow
+930,역천,적 전체의 물리 공격력 (대) 감소\n적 전체의 마법 공격력 (대) 감소,1,debuffAtk,enemyAll,l,8,debuffMAtk,enemyAll,l,8,magic_purple2,thunder2
+931,영웅의 증명,전방의 적 하나에게 물리 (특대) 데미지,1,atk,enemy,xl,0,0,0,0,0,slash_charge,thunder1
+932,오라 달콤한 죽음이여,일정시간 동안 적의 공격을 유인\n자신의 체력 (특대) 회복,7,decoy,me,xl,12,healHp,me,xl,0,star,0
+933,여왕의 표식,전방의 적 하나의 마법 방어력 (특대) 감소,1,debuffMDef,enemy,xl,8,0,0,0,0,slash_charge,debuff
+934,검은 여왕의 손길,아군 전체의 마법 공격력 (대) 증가\n아군 전체의 크리티컬 확률 (특대) 증가,1,buffMAtk,teamAll,l,8,buffCri,teamAll,xl,12,magic_purple2,effect_purple
+935,뇌격,적 전체에게 물리 (대) 데미지,1,atk,enemyAll,l,0,0,0,0,0,slash_charge,thunder2
+936,진동,전방의 적 하나에게 물리 (대) 데미지\n대상의 물리 방어력 (중) 감소,1,atk,enemy,l,0,debuffDef,enemy,m,0,slash,debuff
+937,부활,체력이 가장 적은 아군의 체력 (특대) 회복,1,healHp,teamHp,xl,0,0,0,0,0,buff_green,heal
+938,자력,적 전체에게 물리 (대) 데미지,1,atk,enemyAll,l,0,0,0,0,0,slash_all,hit_white
+939,봉인,전방의 적 하나의 마법 방어력 (대) 감소\n대상을 스턴 상태로 만듦,1,debuffMDef,enemy,l,8,stun,enemy,s,10,fire_red,electric
+940,농담,20% 확률로 전방의 적 하나가 사망\n실패 시 자신이 사망,1,joke,enemy,s,0,0,0,0,0,star,bomb1
+941,해킹,적 전체에게 마법 (중) 데미지\n대상의 마법 방어력 (대) 감소,1,mAtk,enemyAll,m,0,debuffMDef,enemyAll,l,8,magic_blue,bomb1
+942,만천화우,적 전체에게 물리 (대) 데미지,1,atk,enemyAll,l,0,0,0,0,0,slash_all,thunder2
+943,나크 티스의 방벽,전방의 아군 하나의 물리 방어력 (특대) 증가\n대상의 마법 방어력 (특대) 증가,1,buffDef,team1,xl,8,buffMDef,team1,xl,8,magic_red,shield
+944,친절한 미소,적 전체를 스턴 상태로 만듦,1,stun,enemyAll,s,6,0,0,0,0,star,electric
+945,수수께끼-문제해결!,아군 전체의 마력 (대) 회복,1,healMp,teamAll,l,0,0,0,0,0,star,effect_blue
+946,SUENO IMPOSIBLE,전방의 적 하나에게 물리 (특대) 데미지\n자신의 물리 방어력 (소) 감소,1,atk,enemy,xl,0,debuffDef,me,s,8,slash,thunder1
+947,경화수월 : 만월,전방의 적 하나에게 물리 (대) 데미지\n자신의 체력 (대) 회복,1,atk,enemy,l,0,healHp,me,l,0,buff_yellow,thunder2
+948,진자운동,전방의 적 하나에게 마법 (대) 데미지\n아군 전체의 회피율 (특대) 증가,1,mAtk,enemy,l,0,buffMiss,teamAll,xl,8,throw,shield_spark
+949,아가페의 백금 화살,전방의 적 하나의 물리 방어력 (특대) 감소,2,debuffDef,enemy,xl,8,0,0,0,0,slash_charge,thunder1
+950,시간 조율,전방의 적 하나에게 마법 (대) 데미지\n대상을 스턴 상태로 만듦,1,mAtk,enemy,l,0,stun,enemy,s,10,buff_yellow,electric
+951,초재생,자신의 체력 (특대) 회복\n자신의 마력 (대) 회복,1,healHp,me,xl,0,healMp,me,l,0,heal,0
+952,제왕검형,전방의 적 하나에게 물리 (특대) 데미지,1,atk,enemy,xl,0,0,0,0,0,slash_charge,bomb2
+953,업화,전방의 적 하나에게 마법 (대) 데미지\n아군 전체의 마법 방어력 (대) 증가,1,mAtk,enemy,l,0,buffmMDef,teamAll,l,8,magic_purple,magicHit_purple
+954,레퀴엠,전방의 적 하나에게 마법 (특대) 데미지,1,mAtk,enemy,xl,0,0,0,0,0,gun3,thunder1
+955,10만볼트,전방의 적 하나에게 마법 (대) 데미지\n대상을 스턴 상태로 만듦,1,mAtk,enemy,l,0,stun,enemy,s,10,spark,hit_electric
+956,신성한 강타,전방의 적 하나에게 물리 (특대) 데미지,1,atk,enemy,xl,0,0,0,0,0,slash_charge,bomb2
+957,암습,전방의 적 하나에게 물리 (특대) 데미지,1,atk,enemy,xl,0,0,0,0,0,slash_charge,bomb2
+958,분노의 씨앗,자신의 물리 공격력 (특대) 증가,1,buffAtk,me,xl,8,0,0,0,0,magic_redstone,0
+959,헥스,전방의 적 하나의 마법 방어력 (특대) 감소,1,debuffMDef,enemy,xl,8,0,0,0,0,magic_red,debuff
+960,파이어볼,적 전체에게 마법 (대) 데미지\n대상을 화상 상태로 만듦,1,mAtk,enemyAll,l,0,fire,enemyAll,s,6,magic_red,metheor
